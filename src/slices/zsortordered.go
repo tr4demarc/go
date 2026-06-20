@@ -55,7 +55,7 @@ func heapSortOrdered[E cmp.Ordered](data []E, a, b int) {
 }
 
 // pdqsortOrdered sorts data[a:b].
-// The algorithm based on pattern-defeating quicksort(pdqsort), but without the optimizations from BlockQuicksort.
+// The algorithm is based on pattern-defeating quicksort(pdqsort), but without the optimizations from BlockQuicksort.
 // pdqsort paper: https://arxiv.org/pdf/2106.05123.pdf
 // C++ implementation: https://github.com/orlp/pdqsort
 // Rust implementation: https://docs.rs/pdqsort/latest/pdqsort/
